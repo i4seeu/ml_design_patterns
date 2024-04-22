@@ -1,4 +1,14 @@
 def binary_search(arr, item):
+    """
+    Searches for an item in array using binary search algorithm.
+
+    Args:
+        arr (list): an array of items to search for an itemm.
+        item (float): an iteam to search in an arry.
+
+    Returns:
+        integer: an indexx of the searched item.
+    """
     low = 0
     high = len(arr)-1
 
